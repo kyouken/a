@@ -1,0 +1,51 @@
+<86>Nov 21 01:55:55 groupadd[1102]: new group: name=utmp, GID=22
+<86>Nov 21 01:55:56 groupadd[1106]: new group: name=utempter, GID=35
+<86>Nov 21 01:56:08 groupadd[1127]: new group: name=audio, GID=63
+<86>Nov 21 01:56:24 useradd[1160]: new group: name=nscd, GID=28
+<86>Nov 21 01:56:24 useradd[1160]: new user: name=nscd, UID=28, GID=28, home=/, shell=/sbin/nologin
+<86>Nov 21 01:56:29 groupadd[1183]: new group: name=floppy, GID=19
+<86>Nov 21 01:56:32 useradd[1187]: new group: name=vcsa, GID=69
+<86>Nov 21 01:56:32 useradd[1187]: new user: name=vcsa, UID=69, GID=69, home=/dev, shell=/sbin/nologin
+<86>Nov 21 01:56:39 groupadd[1215]: new group: name=rpc, GID=32
+<86>Nov 21 01:56:41 useradd[1219]: new user: name=rpc, UID=32, GID=32, home=/, shell=/sbin/nologin
+<86>Nov 21 01:56:44 useradd[1255]: new group: name=mailnull, GID=47
+<86>Nov 21 01:56:44 useradd[1255]: new user: name=mailnull, UID=47, GID=47, home=/var/spool/mqueue, shell=/sbin/nologin
+<86>Nov 21 01:56:45 useradd[1260]: new group: name=smmsp, GID=51
+<86>Nov 21 01:56:45 useradd[1260]: new user: name=smmsp, UID=51, GID=51, home=/var/spool/mqueue, shell=/sbin/nologin
+<21>Nov 20 11:56:46 sendmail[1274]: alias database /etc/aliases rebuilt by root
+<22>Nov 20 11:56:46 sendmail[1274]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+<86>Nov 21 01:56:47 useradd[1280]: new group: name=apache, GID=48
+<86>Nov 21 01:56:47 useradd[1280]: new user: name=apache, UID=48, GID=48, home=/var/www, shell=/sbin/nologin
+<86>Nov 21 01:57:21 groupadd[1355]: new group: name=pcap, GID=77
+<86>Nov 21 01:57:22 useradd[1359]: new user: name=pcap, UID=77, GID=77, home=/var/arpwatch, shell=/sbin/nologin
+<86>Nov 21 01:57:27 groupadd[1630]: new group: name=slocate, GID=21
+<86>Nov 21 01:57:36 groupadd[1641]: new group: name=ntp, GID=38
+<86>Nov 21 01:57:38 useradd[1645]: new user: name=ntp, UID=38, GID=38, home=/etc/ntp, shell=/sbin/nologin
+<14>Nov 21 01:58:15 gconfd (root-1734): 起動中 (バージョン 2.14.0), PID 1734 ユーザ 'root'
+<14>Nov 21 01:58:16 gconfd (root-1734): 読み込み専用の設定ソースに対するアドレス "xml:readonly:/etc/gconf/gconf.xml.mandatory" (0 行目) を解決しました
+<14>Nov 21 01:58:16 gconfd (root-1734): 書き込み可能な設定ソースに対するアドレス "xml:readwrite:/root/.gconf" (1 行目) を解決しました
+<14>Nov 21 01:58:16 gconfd (root-1734): 読み込み専用の設定ソースに対するアドレス "xml:readonly:/etc/gconf/gconf.xml.defaults" (2 行目) を解決しました
+<14>Nov 21 01:58:17 gconfd (root-1734): 終了します
+<86>Nov 21 01:58:27 groupadd[1764]: new group: name=ecryptfs, GID=101
+<86>Nov 21 01:59:08 useradd[2095]: new group: name=dbus, GID=81
+<86>Nov 21 01:59:08 useradd[2095]: new user: name=dbus, UID=81, GID=81, home=/, shell=/sbin/nologin
+<86>Nov 21 01:59:11 useradd[2109]: new group: name=avahi, GID=70
+<86>Nov 21 01:59:11 useradd[2109]: new user: name=avahi, UID=70, GID=70, home=/, shell=/sbin/nologin
+<86>Nov 21 02:00:12 groupadd[3224]: new group: name=hsqldb, GID=96
+<86>Nov 21 02:00:12 useradd[3228]: new user: name=hsqldb, UID=96, GID=96, home=/var/lib/hsqldb, shell=/sbin/nologin
+<86>Nov 21 02:00:21 useradd[3403]: new group: name=rpcuser, GID=29
+<86>Nov 21 02:00:21 useradd[3403]: new user: name=rpcuser, UID=29, GID=29, home=/var/lib/nfs, shell=/sbin/nologin
+<86>Nov 21 02:00:23 useradd[3411]: new group: name=nfsnobody, GID=65534
+<86>Nov 21 02:00:23 useradd[3411]: new user: name=nfsnobody, UID=65534, GID=65534, home=/var/lib/nfs, shell=/sbin/nologin
+<86>Nov 21 02:00:24 useradd[3426]: new group: name=sshd, GID=74
+<86>Nov 21 02:00:24 useradd[3426]: new user: name=sshd, UID=74, GID=74, home=/var/empty/sshd, shell=/sbin/nologin
+<86>Nov 21 02:00:43 useradd[3451]: new group: name=haldaemon, GID=68
+<86>Nov 21 02:00:43 useradd[3451]: new user: name=haldaemon, UID=68, GID=68, home=/, shell=/sbin/nologin
+<86>Nov 21 02:00:46 groupadd[3463]: new group: name=avahi-autoipd, GID=102
+<86>Nov 21 02:00:48 useradd[3468]: new user: name=avahi-autoipd, UID=100, GID=102, home=/var/lib/avahi-autoipd, shell=/sbin/nologin
+<86>Nov 21 02:00:55 useradd[3494]: new group: name=xfs, GID=43
+<86>Nov 21 02:00:55 useradd[3494]: new user: name=xfs, UID=43, GID=43, home=/etc/X11/fs, shell=/sbin/nologin
+<86>Nov 21 02:04:16 useradd[4730]: new group: name=gdm, GID=42
+<86>Nov 21 02:04:16 useradd[4730]: new user: name=gdm, UID=42, GID=42, home=/var/gdm, shell=/sbin/nologin
+<86>Nov 21 02:04:17 usermod[4735]: change user `gdm' shell from `/sbin/nologin' to `/sbin/nologin'
+<86>Nov 21 02:04:17 usermod[4735]: add `gdm' to group `audio'
